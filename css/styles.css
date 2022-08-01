@@ -1,0 +1,92 @@
+* {
+    font-family: OpenSansRegular;
+    margin: 0;
+}
+@font-face {
+    src: url("../fonts/OpenSansRegular.ttf");
+    font-family: OpenSansRegular;
+}
+body {
+    background-image: url("../images/polished-metal-seamless-texture-brushed-aluminium-background_167184-77.webp");
+}
+header {
+    background-image: url("../images/dark-metal-seamless-texture-repeating-background-or-web-page-fill_167184-78.webp");
+    margin: 0 0 35px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu {
+    font-size: 18px;
+    background-color: grey;
+    color: #010101;
+    border: 2px solid #010101;
+    border-radius: 15px;
+    padding: 3px 45px;
+    box-shadow: 3px 3px 5px 3px black;
+}
+.menu:hover {
+    background-color: #b5b5b4;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0 0 15px;
+    border-bottom: 1px solid black;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    background-image: url("../images/dark-metal-seamless-texture-repeating-background-or-web-page-fill_167184-78.webp");
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 3px black;
+}
+h1, h2 {
+    width: 450px;
+    margin: 15px auto;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+#my_photo {
+    display: block;
+    margin: 0 30px 0 15px;
+    width:600px;
+
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+}
+a {
+    text-decoration:none;
+    color: brown;
+}
+a:hover {
+    color: blue;
+}
+footer {
+    background-image: url("../images/dark-metal-seamless-texture-repeating-background-or-web-page-fill_167184-78.webp");
+}
+
+.footer_block {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 0 10px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.contact_icon {
+    margin-right: 10px;
+}
